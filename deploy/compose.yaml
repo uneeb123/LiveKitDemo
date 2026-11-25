@@ -1,0 +1,15 @@
+services:
+  planner:
+    build:
+      context: ..
+      dockerfile: Dockerfile.planner
+    restart: unless-stopped
+    env_file: ../.env.local
+    environment:
+      MAX_MEMORY_DB: /data/max.sqlite3
+    ports:
+      - "8080:8080"
+    volumes:
+      - max-memory:/data
+volumes:
+  max-memory:

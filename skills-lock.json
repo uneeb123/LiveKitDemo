@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "skills": {
+    "building-livekit-agents": {
+      "source": "livekit/agent-skills",
+      "commit": "378fb2b6998c5a9a4dc135dfbf65af05d0d6c8ac",
+      "sourceType": "github",
+      "skillPath": "skills/building-livekit-agents/SKILL.md",
+      "computedHash": "4878b7b777803592947ebeaf252e0cf2fb9cfff6eb39a2471613e3c1f27a52bb"
+    },
+    "debugging-livekit-agents": {
+      "source": "livekit/agent-skills",
+      "commit": "378fb2b6998c5a9a4dc135dfbf65af05d0d6c8ac",
+      "sourceType": "github",
+      "skillPath": "skills/debugging-livekit-agents/SKILL.md",
+      "computedHash": "a2d9f2a0ca3f07a6cc721aed58a58c3d7a264fa5bc0d82df4b9cc0c9a034e4be"
+    },
+    "operating-livekit-agents": {
+      "source": "livekit/agent-skills",
+      "commit": "378fb2b6998c5a9a4dc135dfbf65af05d0d6c8ac",
+      "sourceType": "github",
+      "skillPath": "skills/operating-livekit-agents/SKILL.md",
+      "computedHash": "706805e523b9d89cb4bf00f9421f1ad8c731c24135d2f53ce048cab6bb7dfa8d"
+    },
+    "reading-livekit-docs": {
+      "source": "livekit/agent-skills",
+      "commit": "378fb2b6998c5a9a4dc135dfbf65af05d0d6c8ac",
+      "sourceType": "github",
+      "skillPath": "skills/reading-livekit-docs/SKILL.md",
+      "computedHash": "0cb09fe3d76be5d2531bfacf34385d44fcc6c0074f0c31adc09a9084cff7b8a2"
+    },
+    "running-livekit-simulations": {
+      "source": "livekit/agent-skills",
+      "commit": "378fb2b6998c5a9a4dc135dfbf65af05d0d6c8ac",
+      "sourceType": "github",
+      "skillPath": "skills/running-livekit-simulations/SKILL.md",
+      "computedHash": "9dd947a33237d90f61e9517c4701316034ce2ee7baad58c9f8074383030f00be"
+    },
+    "testing-livekit-agents": {
+      "source": "livekit/agent-skills",
+      "commit": "378fb2b6998c5a9a4dc135dfbf65af05d0d6c8ac",
+      "sourceType": "github",
+      "skillPath": "skills/testing-livekit-agents/SKILL.md",
+      "computedHash": "343336d06702052187aea648bbbb75a807a4217b45dc5150f67e50ed5ffc5ecb"
+    },
+    "writing-livekit-scenarios": {
+      "source": "livekit/agent-skills",
+      "commit": "378fb2b6998c5a9a4dc135dfbf65af05d0d6c8ac",
+      "sourceType": "github",
+      "skillPath": "skills/writing-livekit-scenarios/SKILL.md",
+      "computedHash": "61fa4a6092d4705af8b3c668ea9b208c615f1043be8014c2db03915ac9d51152"
+    }
+  }
+}

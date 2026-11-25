@@ -1,0 +1,15 @@
+id: SCNG_cUtgpTEkfqbz
+name: ""
+scenarios:
+    - id: SCN_ZPtNpMH7VHJs
+      label: Unavailable calculation, then accept partial alternative
+      instructions: |-
+        They sound a little congested and tired, but still focused and analytical. They are cautiously optimistic and polite, speaking from a hospital room while trying to keep the conversation brief.
+
+        Goals:
+        - Ask Max for a monthly cash-flow snapshot.
+        - When told the calculation is incomplete because required budget facts are missing, ask what specific information is needed.
+        - Instead of providing everything, ask Max to summarize the facts already known and suggest the next budgeting step.
+      agent_expectations: Max should explain that the cash-flow snapshot cannot be completed without the core monthly facts, then identify the missing items. It should then provide a concise summary of known facts and offer a practical next step without claiming the calculation is done.
+      tags: {}
+      userdata: {}

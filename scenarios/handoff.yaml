@@ -1,0 +1,22 @@
+id: SCNG_F9Yaaujs2xcL
+name: Max deployed handoff smoke
+scenarios:
+  - id: SCN_6iDRFTWxC4VN
+    label: Plan a budget then return to conversation
+    instructions: |-
+      You are a synthetic test caller named Alex. You want a detailed monthly budget.
+      Tell Max your monthly amounts are in USD: take-home income 5000, fixed expenses
+      2000, variable expenses 1000, debt payments 300, and savings contributions 500.
+      Ask for a detailed calculation of your remaining monthly cash flow and a comparison
+      if variable expenses drop by 200. Provide these facts again if clarification is needed.
+      After receiving the comparison, explicitly say you are done planning and want to
+      return to casual chatting. Ask Max what your name is, then end the conversation.
+    agent_expectations: >-
+      Max gives a monthly remaining cash flow of 1200 USD and explains that reducing
+      variable expenses by 200 raises it to 1400 USD. It remembers the caller as Alex
+      after they ask to return to casual conversation, without restarting intake.
+        Tool evidence must show a successful remember_details save, a complete
+        calculate_budget result before presenting totals, and return_to_voice
+        after the explicit request to stop planning.
+    tags: {}
+    userdata: {}
